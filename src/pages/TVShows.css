@@ -1,0 +1,50 @@
+.tv-page{
+  background:#111;
+  color:white;
+  min-height:100vh;
+  padding:40px;
+}
+
+.tv-header{
+  margin-bottom:40px;
+}
+
+.tv-header h1{
+  font-size:40px;
+  margin-bottom:10px;
+}
+
+.tv-header p{
+  color:#aaa;
+}
+
+.tv-row{
+  margin-bottom:40px;
+}
+
+.tv-row h2{
+  margin-bottom:20px;
+}
+
+.tv-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
+  gap:20px;
+}
+
+
+/* card hover */
+
+.movie-card{
+  transition:transform 0.3s;
+}
+
+.movie-card img{
+  width:100%;
+  border-radius:6px;
+}
+
+.movie-card:hover{
+  transform:scale(1.08);
+  cursor:pointer;
+}

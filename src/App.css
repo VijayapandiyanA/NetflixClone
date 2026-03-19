@@ -1,0 +1,56 @@
+body{
+  margin:0;
+  background:#141414;
+  font-family:Arial;
+  color:white;
+}
+
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  padding:20px 40px;
+  background:black;
+}
+
+.logo{
+  color:red;
+}
+
+.nav-links a{
+  margin:0 15px;
+  color:white;
+  text-decoration:none;
+}
+
+.movies-grid{
+  padding:40px;
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
+  gap:20px;
+}
+
+.movie-card{
+  background:#222;
+  padding:10px;
+  border-radius:8px;
+  transition:0.3s;
+}
+
+.movie-card img{
+  width:100%;
+  border-radius:6px;
+}
+
+.movie-card:hover{
+  transform:scale(1.05);
+}
+
+button{
+  width:100%;
+  padding:8px;
+  margin-top:10px;
+  background:red;
+  border:none;
+  color:white;
+  cursor:pointer;
+}
