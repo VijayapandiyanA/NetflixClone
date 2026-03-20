@@ -1,1 +1,1 @@
- WEB URL LINK:https://clone-0769.netlify.app/
+ WEB URL LINK:https://netflix-clone-lovat-ten-35.vercel.app/
